@@ -78,9 +78,9 @@ bindsym $mod+Shift+Escape exit i3
 #######################
 workspace $ws1 output HDMI-1
 workspace $ws2 output HDMI-0
-workspace $ws3 output HDMI-2
+workspace $ws3 output HDMI-3
 
-assign [class="vlc"] $1
+assign [class="vlc"] $ws1
 #assign [class="calendar"] $2
 #assign [class="weather"] $3
 ########################
