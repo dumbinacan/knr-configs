@@ -198,8 +198,8 @@ for_window [class="^.*"] border pixel 2
 
 #TODO start up script that starts a program and moves it to a specific program
 #TODO fix path to git repo
-exec /home/display-wall/scripts/weather.sh
-exec /home/display-wall/scripts/labcam.sh
-exec /home/display-wall/scripts/calendar.sh
+exec /home/display-wall/knr-configs/scripts/weather.sh
+exec /home/display-wall/knr-configs/scripts/labcam.sh
+exec /home/display-wall/knr-configs/scripts/calendar.sh
 
 #TODO organize the fuck out of this
