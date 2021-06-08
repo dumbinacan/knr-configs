@@ -20,4 +20,3 @@ ln -sf $wd/xinitrc $HOME/.xinitrc
 
 #Xresources
 ln -sf $wd/Xresources $HOME/.Xresources
-
