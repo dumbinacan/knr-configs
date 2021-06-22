@@ -78,8 +78,8 @@ workspace $ws3 output HDMI-3
 
 #assign programs to workspace
 assign [class="vlc"] $ws1
-assign [class="calendar"] $ws2
-assign [class="weather"] $ws3
+assign [class="minetime"] $ws2
+assign [class="surf"] $ws3
 ########################
 
 exec /home/display-wall/knr-configs/scripts/weather.sh

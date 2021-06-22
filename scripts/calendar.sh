@@ -1,2 +1,4 @@
 #!/bin/sh
-calendar https://calendar.google.com
+
+#calendar https://calendar.google.com
+minetime
