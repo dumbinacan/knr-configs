@@ -82,6 +82,6 @@ assign [class="minetime"] $ws2
 assign [class="surf"] $ws3
 ########################
 
-exec /home/display-wall/knr-configs/scripts/weather.sh
 exec /home/display-wall/knr-configs/scripts/labcam.sh
 exec /home/display-wall/knr-configs/scripts/calendar.sh
+exec /home/display-wall/knr-configs/scripts/weather.sh
