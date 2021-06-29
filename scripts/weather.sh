@@ -1,2 +1,4 @@
 #!/bin/sh
-surf https://darksky.net
+
+qutebrowser
+#surf https://darksky.net
