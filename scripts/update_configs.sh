@@ -3,4 +3,4 @@
 cd ~/knr-configs
 git pull
 
-sudo pacman -Syyu --noconfirm & wait;
+sudo pacman -Syyu --noconfirm > ./update.log & wait;
