@@ -1,7 +1,8 @@
 #!/bin/sh
 
 cd ~/knr-configs/scripts
-./update_configs.sh && ./calendar.sh
-./weather.sh
-./labcam.sh
+./update_configs.sh &&
+source ./calendar.sh &
+source ./weather.sh &
+source ./labcam.sh &
 
