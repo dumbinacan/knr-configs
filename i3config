@@ -83,4 +83,7 @@ assign [class="calendar"] $ws2
 assign [class="qutebrowser"] $ws3
 ########################
 
-exec /home/display-wall/knr-configs/scripts/startup.sh
+exec ~/knr-configs/screenlayout/displaywall.sh
+exec ~/knr-configs/scripts/labcam.sh
+exec ~/knr-configs/scripts/calendar.sh
+exec ~/knr-configs/scripts/weather.sh
