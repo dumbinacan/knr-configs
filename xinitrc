@@ -60,12 +60,10 @@ do
     duration=$(( SECONDS - start ))
 done
 
-#turn off sleep mode
-#systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
-xset dpms force on
+#update system at boot..
+~/knr-configs/scripts/update_configs.sh
 
-#update system at boot.. 
-~/knr-configs/scripts/update_configs.sh && wait
+#TODO systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
 #application to hide the mouse cursor when not being used
 unclutter &
