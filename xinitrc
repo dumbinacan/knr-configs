@@ -64,11 +64,11 @@ done
 #systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 xset dpms force on
 
-#TODO move to i3config and only boot i3 here.
-#display configuration
-~/knr-configs/screenlayout/displaywall.sh &
+#update system at boot.. 
+~/knr-configs/scripts/update_configs.sh && wait
 
 #application to hide the mouse cursor when not being used
 unclutter &
+
 
 exec i3
