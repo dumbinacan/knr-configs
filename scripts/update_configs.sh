@@ -1,9 +1,9 @@
 #!/bin/sh
 
 cd ~/knr-configs
-printf "## $(date) ##\ngit pull" >> ./update.log
+printf "## $(date) ##\ngit pull\n" >> ./update.log
 git pull >> ./update.log
-printf "# pacman -Syyu --noconfirm" >> ./update.log
+printf "# pacman -Syyu --noconfirm\n" >> ./update.log
 sudo pacman -Syyu --noconfirm >> ./update.log && wait;
 printf "##################################\n" >> ./update.log
 git add ./update.log
