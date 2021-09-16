@@ -80,6 +80,7 @@ workspace $ws3 output HDMI-3
 assign [class="vlc"] $ws1
 assign [class="ffplay"] $ws1
 assign [class="calendar"] $ws2
+assign [class="surf"] $ws2
 assign [class="qutebrowser"] $ws3
 ########################
 
